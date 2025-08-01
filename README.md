@@ -25,6 +25,26 @@ This workflow includes **optional preprocessing with SurfCut** to better handle 
 
 ---
 
+## Comparison between SurfCut and SurfCut2 Lite
+
+This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) as a preprocessing step to efficiently and automatically extract the epidermal layer signal from 3D confocal stacks.
+
+### Why choose SurfCut2 Lite?
+
+- **Original SurfCut** ([VergerLab/SurfCut](https://github.com/VergerLab/SurfCut))  
+  Offers full parameter options and an interactive interface, suitable for in-depth exploration of surface extraction principles and parameter tuning. It is a valuable tool for academic research and method development.
+
+- **SurfCut2 Lite**  
+  A lightweight, interface-free version designed for seamless integration into automated ImageJ macro workflows. It greatly saves processing time and improves reproducibility, making it ideal for routine large-scale data analysis.
+
+### Recommendations
+
+- If you need flexible parameter adjustments and want to deeply understand the projection mechanism, the original SurfCut is recommended.  
+- If you prioritize speed, automation, and workflow stability, SurfCut2 Lite is preferred.
+
+
+---
+
 ## 📁 Requirements
 
 - Fiji with the following installed:  
