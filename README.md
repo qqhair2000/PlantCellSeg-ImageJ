@@ -15,6 +15,8 @@ This workflow includes **optional preprocessing with SurfCut** to better handle 
 
 
 
+
+
 ## 🧪 Pipeline Overview
 
 1. *(Optional)* **SurfCut** – Surface projection from 3D stack
