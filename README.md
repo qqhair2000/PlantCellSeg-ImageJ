@@ -31,7 +31,7 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
 
 ### Why choose SurfCut2 Lite?
 
-- **Original SurfCut** [/SurfCut](https://github.com/sverger/SurfCut)
+- **Original SurfCut** [SurfCut](https://github.com/sverger/SurfCut)
   Offers full parameter options and an interactive interface, suitable for in-depth exploration of surface extraction principles and parameter tuning. It is a valuable tool for academic research and method development.
 
 - **SurfCut2 Lite**  
