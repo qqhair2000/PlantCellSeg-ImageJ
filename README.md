@@ -47,17 +47,26 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
 
 ## 📁 Requirements
 
-- Fiji with the following installed:  
-  - [MorphoLibJ plugin](https://imagej.net/plugins/morpholibj)  
-  - *(Optional)* [SurfCut macro](https://github.com/sverger/SurfCut)  
-
----
+- Fiji (ImageJ) with the following plugins installed:
+  - [MorphoLibJ](https://imagej.net/plugins/morpholibj)  
+  - *(Optional)* [SurfCut2 Lite macro](https://github.com/VergerLab/SurfCut2) —  
+    included in this pipeline for automated preprocessing  
+- Java 8 or higher (standard with Fiji)
 
 ## 📖 References
 
-- Verger et al., *BMC Biology*, 2019 – SurfCut  
-- Legland et al., *MorphoLibJ*, 2016  
-- Fiji / ImageJ documentation  
+- Verger, S., et al. (2019). SurfCut: A macro tool for surface layer extraction from 3D images. *BMC Biology*, 17, 32.  
+  [https://doi.org/10.1186/s12915-019-0657-1](https://doi.org/10.1186/s12915-019-0657-1)
+
+- Legland, D., Arganda-Carreras, I., & Andrey, P. (2016). MorphoLibJ: integrated library and plugins for mathematical morphology with ImageJ. *Bioinformatics*, 32(22), 3532–3534.  
+  [https://doi.org/10.1093/bioinformatics/btw413](https://doi.org/10.1093/bioinformatics/btw413)
+
+- Fiji / ImageJ Documentation:  
+  [https://imagej.net/](https://imagej.net/)
+
+- SurfCut2 Lite macro:  
+  [https://github.com/VergerLab/SurfCut2](https://github.com/VergerLab/SurfCut2)
+
 
 ---
 
