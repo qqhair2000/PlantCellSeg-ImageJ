@@ -28,11 +28,11 @@ The pipeline processes 3D confocal image stacks of plant tissues with flexible p
    Extracts a surface layer from 3D stack; ideal for curved tissues.  
    從 3D 堆疊中擷取表面層，適合彎曲葉片或曲面樣本。
 
-2. **Max Projection**  
+-  **Max Projection**  
    Projects Z-stack using maximum intensity; best for flat tissues.  
    將 Z 軸投影為最大強度影像，適合平坦或已壓平的樣本。
 
-3. **None**  
+-  **None**  
    Directly segments the current slice; for 2D or preprocessed images.  
    直接對目前影像分割，適用於 2D 或已預處理的影像。
 
