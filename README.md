@@ -23,7 +23,7 @@ The pipeline processes 3D confocal image stacks of plant tissues with flexible p
 
 1. **Preprocessing (choose one):**  
    - *SurfCut2 Lite* – Surface projection extracting the outermost cell layer, ideal for curved tissues like domed leaves
-     若葉片彎曲嚴重：建議選 SurfCut2 Lite（將曲面轉平面再投影，保留邊界清晰度）。
+   - 若葉片彎曲嚴重：建議選 SurfCut2 Lite（將曲面轉平面再投影，保留邊界清晰度）。
    - *Max Projection* – Z-stack converted to 2D by maximum intensity projection, suitable for relatively flat samples
      若葉片幾乎平整或已壓平：Max Projection 即可。
    - *None* – Skip preprocessing and segment directly on the current slice
