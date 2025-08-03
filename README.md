@@ -17,13 +17,23 @@ This workflow includes **optional preprocessing with SurfCut** to better handle 
 
 ## 🧪 Pipeline Overview
 
-1. *(Optional)* **SurfCut** – Surface projection from 3D stack  
-2. **Max Projection** – Z-stack to 2D via maximum intensity  
-3. **Denoising** – Despeckle + Gaussian blur  
-4. **Segmentation** – Marker-controlled watershed (MorphoLibJ)  
-5. **ROI Extraction** – Convert label map to vector ROIs  
+The pipeline processes 3D confocal image stacks of plant tissues with flexible preprocessing options.
+
+### Processing Steps:
+
+1. **Preprocessing (choose one):**  
+   - *SurfCut2 Lite* – Surface projection extracting the outermost cell layer, ideal for curved tissues like domed leaves  
+   - *Max Projection* – Z-stack converted to 2D by maximum intensity projection, suitable for relatively flat samples  
+   - *None* – Skip preprocessing and segment directly on the current slice
+
+2. **Denoising:** Despeckle + Gaussian blur  
+3. **Segmentation:** Marker-controlled watershed (MorphoLibJ)  
+4. **ROI Extraction:** Convert label map to vector ROIs  
 
 ---
+
+💡 Upon starting the macro, a dropdown menu allows you to select the preprocessing method, adapting the pipeline to your sample type.
+
 
 ## Comparison between SurfCut and SurfCut2 Lite
 
