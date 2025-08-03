@@ -30,9 +30,10 @@ The pipeline processes 3D confocal image stacks of plant tissues with flexible p
 3. **Segmentation:** Marker-controlled watershed (MorphoLibJ)  
 4. **ROI Extraction:** Convert label map to vector ROIs  
 
----
 
 💡 Upon starting the macro, a dropdown menu allows you to select the preprocessing method, adapting the pipeline to your sample type.
+
+---
 
 
 ## Comparison between SurfCut and SurfCut2 Lite
