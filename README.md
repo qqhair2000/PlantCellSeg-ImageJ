@@ -21,33 +21,49 @@ The pipeline processes 3D confocal image stacks of plant tissues with flexible p
 
 ### Processing Steps:
 
-1. **Preprocessing (choose one):**  
-  ### 🧪 Preprocessing (choose one) / 前處理選擇（擇一）
+## 🧪 Processing Steps / 處理流程
 
--  **SurfCut2 Lite**  
-   Extracts a surface layer from 3D stack; ideal for curved tissues.  
-   從 3D 堆疊中擷取表面層，適合彎曲葉片或曲面樣本。
+### 1. **Preprocessing (choose one) / 前處理選擇（擇一）**
 
--  **Max Projection**  
-   Projects Z-stack using maximum intensity; best for flat tissues.  
-   將 Z 軸投影為最大強度影像，適合平坦或已壓平的樣本。
+| 選項              | 說明 (English)                                                              | 說明 (中文)                                                         |
+|-------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **SurfCut2 Lite** | Extracts a surface layer from 3D stack; ideal for curved tissues.          | 從 3D 堆疊中擷取表面層，適合彎曲葉片或曲面樣本。                      |
+| **Max Projection**| Projects Z-stack using maximum intensity; best for flat tissues.           | 將 Z 軸投影為最大強度影像，適合平坦或已壓平的樣本。                  |
+| **None**          | Directly segments the current slice; for 2D or preprocessed images.        | 直接對目前影像分割，適用於 2D 或已預處理的影像。                     |
 
--  **None**  
-   Directly segments the current slice; for 2D or preprocessed images.  
-   直接對目前影像分割，適用於 2D 或已預處理的影像。
+---
 
 ### 📌 Usage Tips / 使用建議
 
-- 若葉片**彎曲嚴重**（例如自然捲曲或有弧形表面）：請選用 **SurfCut2 Lite**
-- 若葉片**已壓平或本身較平坦**：可使用 **Max Projection**
-- 若你使用的影像是**單張 2D** 或 **已經是處理過的投影圖**：可選擇 **None**
+- 🌿 若葉片**彎曲嚴重**（如自然捲曲或呈弧形）：建議使用 **SurfCut2 Lite**
+- 📄 若葉片**平坦或已壓平**：建議使用 **Max Projection**
+- 🖼️ 若影像是**單張 2D** 或**已投影處理過的圖像**：可選擇 **None**
 
-2. **Denoising:** Despeckle + Gaussian blur  
-3. **Segmentation:** Marker-controlled watershed (MorphoLibJ)  
-4. **ROI Extraction:** Convert label map to vector ROIs  
+---
 
+### 2. **Denoising / 去雜訊處理**
 
-💡 Upon starting the macro, a dropdown menu allows you to select the preprocessing method, adapting the pipeline to your sample type.
+- Applies *Despeckle* filter and *Gaussian blur* for noise reduction.  
+- 套用去斑點濾波與高斯模糊以降低雜訊。
+
+### 3. **Segmentation / 分割處理**
+
+- Uses **MorphoLibJ**’s marker-controlled watershed algorithm.  
+- 採用 **MorphoLibJ** 的標記控制型 watershed 分割演算法。
+
+### 4. **ROI Extraction / 區域擷取**
+
+- Converts segmented label map into vector-based ROIs.  
+- 將分割結果的標籤圖轉換為可編輯的 ROI 區域。
+
+---
+
+💡 **Tip**  
+Upon starting the macro, a dropdown menu will prompt you to choose the preprocessing method, ensuring the pipeline is tailored to your image type.  
+
+💡 **小提醒**  
+執行巨集時，會跳出下拉選單提示您選擇前處理方式，根據樣本特性自動調整後續分析流程。
+
 
 ---
 
