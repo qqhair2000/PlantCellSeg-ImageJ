@@ -87,22 +87,16 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
 
 
 ---
-## 🧩 Requirements 
-
-- [Fiji (ImageJ)](https://fiji.sc/) 
-
-- [MorphoLibJ](https://imagej.net/plugins/morpholibj/) plugin — **Required**  
- 
-- SurfCut2 Lite — **Included in this pipeline**  
   
 
 ## 📁 Requirements
 
 - Fiji (ImageJ) with the following plugins installed:
   - [MorphoLibJ](https://imagej.net/plugins/morpholibj)  
-  - *(Optional)* [SurfCut2 Lite macro](https://github.com/VergerLab/SurfCut2) —  
-    included in this pipeline for automated preprocessing  
-- Java 8 or higher (standard with Fiji)
+  - [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) — **Included in this pipeline**  
+    SurfCut2 Lite is a macro for extracting a surface layer from 3D image stacks,  
+    especially suited for curved or dome-shaped tissues.  
+    This macro is integrated into the pipeline and requires no separate download or installation.
 
 ## 📖 References
 
