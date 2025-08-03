@@ -19,11 +19,11 @@ This workflow includes **optional preprocessing with SurfCut** to better handle 
 
 The pipeline processes 3D confocal image stacks of plant tissues with flexible preprocessing options.
 
-### Processing Steps:
+
 
 ## 🧪 Processing Steps / 處理流程
 
-### 1. **Preprocessing (choose one) / 前處理選擇（擇一）**
+### 1. **Preprocessing (choose one) **
 
 | 選項              | 說明 (English)                                                              | 說明 (中文)                                                         |
 |-------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------|
