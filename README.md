@@ -87,6 +87,14 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
 
 
 ---
+## 🧩 Requirements 
+
+- [Fiji (ImageJ)](https://fiji.sc/) 
+
+- [MorphoLibJ](https://imagej.net/plugins/morpholibj/) plugin — **Required**  
+ 
+- SurfCut2 Lite — **Included in this pipeline**  
+  
 
 ## 📁 Requirements
 
