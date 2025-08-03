@@ -41,20 +41,20 @@ The pipeline processes 3D confocal image stacks of plant tissues with flexible p
 
 ---
 
-### 2. **Denoising / 去雜訊處理**
+### 2. **Denoising 
 
 - Applies *Despeckle* filter and *Gaussian blur* for noise reduction.  
-- 套用去斑點濾波與高斯模糊以降低雜訊。
 
-### 3. **Segmentation / 分割處理**
 
-- Uses **MorphoLibJ**’s marker-controlled watershed algorithm.  
-- 採用 **MorphoLibJ** 的標記控制型 watershed 分割演算法。
+### 3. **Segmentation 
 
-### 4. **ROI Extraction / 區域擷取**
+- Uses **MorphoLibJ**’s automatic watershed segmentation 
+
+
+### 4. **ROI Extraction 
 
 - Converts segmented label map into vector-based ROIs.  
-- 將分割結果的標籤圖轉換為可編輯的 ROI 區域。
+
 
 ---
 
