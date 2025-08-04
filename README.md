@@ -123,6 +123,21 @@ This segmentation result was generated using the **Max Projection** preprocessin
 
 
 Hypocotyl_GFP-MBD.tif
+## 🧪 SurfCut Result Comparison
+
+<div align="center">
+
+<img src="images/SurfCutProjection_Hypocotyl_GFP-MBD.png" alt="SurfCut Projection" width="30%" title="SurfCut Projection">
+<img src="images/OriginalProjection_Hypocotyl_GFP-MBD.png" alt="Original Projection" width="30%" title="Original Projection">
+<img src="images/SurfCutProjection_result_Hypocotyl_GFP-MBD-2.png" alt="Segmentation Result" width="30%" title="Segmentation Result">
+
+</div>
+
+**Left:** SurfCut projection  
+**Middle:** Original max projection  
+**Right:** Segmentation result after SurfCut
+
+---
 
 ## 📖 References
 
