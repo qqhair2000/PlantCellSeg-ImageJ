@@ -98,11 +98,11 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
     especially suited for curved or dome-shaped tissues.  
     This macro is integrated into the pipeline and requires no separate download or installation.
 
+---
+
 ## 🔍 Example Segmentation Result (Max Projection)
 
 This segmentation result was generated using the **Max Projection** preprocessing method:
-
-
 
 🧩 **Segmentation Output (Max Projection)**  
 ![Max Projection Segmentation](images/max_projection_result_comparsion.png)
