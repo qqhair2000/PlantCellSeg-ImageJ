@@ -115,15 +115,17 @@ This segmentation result was generated using the **Max Projection** preprocessin
 
 🧩 **Segmentation Output (Max Projection)**  
 
-20160406 3Gp L2 1.tif
+File: `20160406 3Gp L2 1.tif`
 
 ![Max Projection Segmentation](images/max_projection_result_comparsion.png)
 
 > 📌 *The Max Projection method is suitable for relatively flat samples or flattened leaf tissue. It may result in blurred boundaries on curved samples.*
 
 
-Hypocotyl_GFP-MBD.tif
+
 ## 🧪 SurfCut Result Comparison
+
+File: `Hypocotyl_GFP-MBD.tif`
 
 <div align="center">
 
@@ -137,6 +139,8 @@ Hypocotyl_GFP-MBD.tif
 **Middle:** Original max projection  
 **Right:** Segmentation result after SurfCut
 
+> 📷 **Image source (Hypocotyl sample):** kindly provided by the authors of [SurfCut](https://github.com/sverger/SurfCut)  
+ 
 ---
 
 ## 📖 References
@@ -161,3 +165,5 @@ Hypocotyl_GFP-MBD.tif
 - This pipeline optionally uses [SurfCut](https://github.com/sverger/SurfCut), which remains under its original license.  
 - MorphoLibJ is maintained by the INRAE image processing team.  
 - This pipeline is intended for academic and research use.
+- The hypocotyl sample image used in the SurfCut segmentation comparison was generously provided by the authors of the SurfCut project.
+  
