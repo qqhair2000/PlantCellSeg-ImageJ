@@ -61,9 +61,6 @@ The pipeline processes 3D confocal image stacks of plant tissues with flexible p
 💡 **Tip**  
 Upon starting the macro, a dropdown menu will prompt you to choose the preprocessing method, ensuring the pipeline is tailored to your image type.  
 
-💡 **小提醒**  
-執行巨集時，會跳出下拉選單提示您選擇前處理方式，根據樣本特性自動調整後續分析流程。
-
 
 ---
 
@@ -99,6 +96,18 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
     This macro is integrated into the pipeline and requires no separate download or installation.
 
 ---
+### 🔍 About Cutting Depth Parameters (Top / Bottom)
+
+The `Top` and `Bottom` values in SurfCut2 Lite do **not** correspond to the original Z-stack slice indices.
+
+Instead, they define the **relative depth** from the detected surface, after the edge-projection process. Internally, SurfCut generates a surface-aligned mask and shifts it along Z to extract a target layer.
+
+Use integers (in slices), e.g., Top = 10, Bottom = 12, to extract the cell layer approximately 10–12 slices below the curved surface.
+
+🧠 These slices are in a synthetic projected space, not physical microns or raw Z indices.
+
+---
+
 
 ## 🔍 Example Segmentation Result (Max Projection)
 
