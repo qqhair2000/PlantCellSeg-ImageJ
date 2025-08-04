@@ -115,12 +115,14 @@ This segmentation result was generated using the **Max Projection** preprocessin
 
 🧩 **Segmentation Output (Max Projection)**  
 
+20160406 3Gp L2 1.tif
+
 ![Max Projection Segmentation](images/max_projection_result_comparsion.png)
 
 > 📌 *The Max Projection method is suitable for relatively flat samples or flattened leaf tissue. It may result in blurred boundaries on curved samples.*
 
 
-
+Hypocotyl_GFP-MBD.tif
 
 ## 📖 References
 
