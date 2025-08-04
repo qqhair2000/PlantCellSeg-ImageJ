@@ -105,6 +105,7 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
 This segmentation result was generated using the **Max Projection** preprocessing method:
 
 🧩 **Segmentation Output (Max Projection)**  
+
 ![Max Projection Segmentation](images/max_projection_result_comparsion.png)
 
 > 📌 *The Max Projection method is suitable for relatively flat samples or flattened leaf tissue. It may result in blurred boundaries on curved samples.*
