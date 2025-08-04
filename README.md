@@ -98,6 +98,20 @@ This project integrates [SurfCut2 Lite](https://github.com/VergerLab/SurfCut2) a
     especially suited for curved or dome-shaped tissues.  
     This macro is integrated into the pipeline and requires no separate download or installation.
 
+## 🔍 Example Segmentation Result (Max Projection)
+
+This segmentation result was generated using the **Max Projection** preprocessing method:
+
+
+
+🧩 **Segmentation Output (Max Projection)**  
+![Max Projection Segmentation](images/max_projection_result_comparsion.png)
+
+> 📌 *The Max Projection method is suitable for relatively flat samples or flattened leaf tissue. It may result in blurred boundaries on curved samples.*
+
+
+
+
 ## 📖 References
 
 - Verger, S., et al. (2019). SurfCut: A macro tool for surface layer extraction from 3D images. *BMC Biology*, 17, 32.  
