@@ -15,6 +15,15 @@ This workflow includes **optional preprocessing with SurfCut** to better handle 
 
 ---
 
+### 🧬 What does SurfCut do?
+
+SurfCut extracts the outermost cell layer from a 3D confocal stack by detecting the surface, cropping a user-defined depth, and projecting it into a single 2D image.
+
+![SurfCut illustration](https://raw.githubusercontent.com/sverger/SurfCut/refs/heads/master/surfcut_illustration.png)
+
+> 📌 *Illustration from the [SurfCut GitHub repository](https://github.com/sverger/SurfCut), used here for educational purposes.*
+
+---
 ## 🧪 Pipeline Overview
 
 The pipeline processes 3D confocal image stacks of plant tissues with flexible preprocessing options.
