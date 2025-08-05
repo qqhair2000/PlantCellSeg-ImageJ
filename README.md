@@ -148,6 +148,13 @@ File: `Hypocotyl_GFP-MBD.tif`
 **Middle:** Original max projection  
 **Right:** Segmentation result after SurfCut
 
+
+> ⚙️ *SurfCut settings used:*
+> - Blur radius: `3`  
+> - Threshold: `15`  
+> - Top cut: `9`  
+> - Bottom cut: `11`
+
 > 📷 **Image source (Hypocotyl sample):** kindly provided by the authors of [SurfCut](https://github.com/sverger/SurfCut)  
  
 ---
