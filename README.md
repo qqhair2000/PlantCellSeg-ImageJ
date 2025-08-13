@@ -127,7 +127,7 @@ This segmentation result was generated using the **Max Projection** preprocessin
 
 🧩 **Segmentation Output (Max Projection)**  
 
-File: `20160406 3Gp L2 1.tif` 📂 [Download Example: 20160406 3Gp L2 1.tif](https://github.com/<username>/<repo>/releases/download/v1.0/20160406%203Gp%20L2%201.tif)  
+File: `20160406 3Gp L2 1.tif` 📂 [Download Example: 20160406 3Gp L2 1.tif](https://github.com/qqhair2000/PlantCellSeg-ImageJ/releases/download/V1.0.0/20160406.3Gp.L2.1.tif)  
 
 
 ![Max Projection Segmentation](images/max_projection_result_comparsion.png)
@@ -138,7 +138,7 @@ File: `20160406 3Gp L2 1.tif` 📂 [Download Example: 20160406 3Gp L2 1.tif](htt
 
 ## 🧪 SurfCut Result Comparison
 
-File: `Hypocotyl_GFP-MBD.tif` 📂 [Download Example: Hypocotyl_GFP-MBD.tif](https://github.com/<username>/<repo>/releases/download/v1.0/Hypocotyl_GFP-MBD.tif)
+File: `Hypocotyl_GFP-MBD.tif` 📂 [Download Example: Hypocotyl_GFP-MBD.tif](https://github.com/qqhair2000/PlantCellSeg-ImageJ/releases/download/V1.0.0/Hypocotyl_GFP-MBD.tif)
 
 
 <div align="center">
