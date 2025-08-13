@@ -3,8 +3,9 @@
 A modular and practical **ImageJ/Fiji pipeline** for segmenting *plant epidermal cells* from 3D confocal microscopy images.  
 This workflow includes **optional preprocessing with SurfCut** to better handle curved tissues such as leaves, and uses **MorphoLibJ** for morphological segmentation.
 
- DOI: 10.5281/zenodo.16827045
-
+---
+ 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16593878.svg)](https://doi.org/10.5281/zenodo.16827045)
 ---
 
 ## 📌 Features
