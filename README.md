@@ -5,7 +5,7 @@ This workflow includes **optional preprocessing with SurfCut** to better handle 
 
 ---
  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16593878.svg)](https://doi.org/10.5281/zenodo.16827045)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16827045.svg)](https://doi.org/10.5281/zenodo.16827045)
 ---
 
 ## 📌 Features
