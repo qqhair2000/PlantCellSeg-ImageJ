@@ -129,6 +129,8 @@ This segmentation result was generated using the **Max Projection** preprocessin
 
 File: `20160406 3Gp L2 1.tif` 📂 [Download Example: 20160406 3Gp L2 1.tif](https://github.com/qqhair2000/PlantCellSeg-ImageJ/releases/download/V1.0.0/20160406.3Gp.L2.1.tif)  
 
+Image file courtesy of Professor Chin-Min Ho, Institute of Plant and Microbial Biology (IPMB).
+
 
 ![Max Projection Segmentation](images/max_projection_result_comparsion.png)
 
